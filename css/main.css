@@ -1,16 +1,21 @@
 body {
     font-family: 'Fira Sans', sans-serif;
     color: #222222;
+    font-size: 18px;
 }
 
 button {
     display: block;
+    border: none;
+    background: transparent;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     color: #151515;
+    margin: 0;
+    padding: 0;
 }
 
 .btn {
@@ -18,7 +23,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
-    padding: 17px 30px;
+    padding: 13px 26px;
+    display: inline;
+    border-radius: 0;
+    letter-spacing: 0.3em;
+    text-align: center;
+    transition: all 0.5s ease;
+  
+}
+
+.btn:hover {
+    background: #3726f2;
+    color: #fff;
+
 }
 
 .header {
@@ -27,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav {
     padding-top: 59px;
+    margin-bottom: 127px;
 }
 
 .logo {
@@ -34,17 +52,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .search {
-    background: transparent;
-    border: none;
+    
 }
 
 .menu {
-    background: transparent;
-    border: none;
+   
 }
 
 .offer-cont__title {
     font-size: 60px;
+    letter-spacing: -0.01em;
+    line-height: 1.2em;
+}
+
+.offer-cont__text {
+    margin: 30px 0 56px;
 }
 
 .offer-cont__btn {
