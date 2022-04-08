@@ -10,6 +10,12 @@ button {
     background: transparent;
 }
 
+.vh-dependent {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
 .be-static {
 position: static;
 }
@@ -43,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
+    height: 95vh;
 
 }
 
@@ -80,8 +87,8 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
     background: url('../img/Placeholder-1.png') no-repeat right top;
     background-size: 80% 100%;
-    width: 700px;
-    height: 840px;
+    width: 55%;
+    height: 88vh;
     position: absolute;
     right: 0;
     top: 140px;
@@ -90,11 +97,11 @@ h1, h2, h3, h4, h5, h6 {
 .video {
     position: absolute;
     left: 0;
-    bottom: 166px;
-    width: 400px;
-    height: 310px;
+    bottom: 30%;
+    width: 40%;
+    height: 30%;
     display: block;
-    background: url('../img/Placeholder.png');
+    background: url('../img/Placeholder.png') no-repeat center center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,4 +114,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 65px;
     height: 65px;
 
+}
+
+.problems {
+    padding-top: 137px;
 }
