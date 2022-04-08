@@ -119,3 +119,31 @@ h1, h2, h3, h4, h5, h6 {
 .problems {
     padding-top: 137px;
 }
+
+.about {
+
+}
+
+.about__title {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.about__text {
+
+}
+
+.about__author {
+    background: url('../img/Ellipse.png') no-repeat left center;
+    padding: 7px 0 7px 96px;
+    margin-top: 61px;
+}
+
+.about__name {
+font-size: 22px;
+}
+
+.about__dop {
+    margin-bottom: 0;
+    
+}
